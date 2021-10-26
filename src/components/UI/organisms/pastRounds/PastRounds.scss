@@ -1,0 +1,44 @@
+.PastRounds{
+    align-items: center;
+    display: grid;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 900px;
+    min-width: 375px;
+    padding: 50px 0;
+
+    h1{
+       text-align: center;
+    }
+
+    img{
+        width: 50px;
+    }
+
+    table{
+        width: 600px;
+
+        th{
+            font-weight: bold;
+            background-color: black;
+            color: white;
+        }
+
+        td{
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+}
+
+@media (max-width:600px) {
+    .PastRounds {
+        img{
+            width: 40px;
+        }
+
+        table{
+            width: 375px;
+        }
+    }
+}

@@ -1,0 +1,1 @@
+export const gameCards = ['rock', 'paper', 'scissors'];

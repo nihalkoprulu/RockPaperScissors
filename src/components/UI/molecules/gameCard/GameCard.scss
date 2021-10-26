@@ -1,0 +1,36 @@
+.PopupContainer{
+    display: grid;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 20px;
+
+    .close{
+        text-align: right;
+        cursor: pointer;
+    }
+    .RoundWinner{
+        text-align: center;
+        font-weight: bold;
+    }
+    
+    img{
+        width: 50px;
+        margin-bottom: 10px;
+    }
+    .ComputerChoice{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+}
+.CardImg{
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .PopupContainer {
+        width: 375px;
+    }
+}

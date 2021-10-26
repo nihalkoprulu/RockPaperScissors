@@ -1,0 +1,22 @@
+.GameBoard{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 50px 0;
+
+    img{
+        width: 150px;
+    }
+}
+
+@media (max-width:600px) {
+    .GameBoard {
+        width: 375px;
+
+        img{
+            width: 100px;
+        }
+    }
+}

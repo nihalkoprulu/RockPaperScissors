@@ -1,0 +1,17 @@
+.Button {
+	background-color: black;
+	color: #FFF;
+	cursor: pointer;
+	font-size: 14px;
+	padding: 10px;
+	vertical-align: middle;
+
+	&:hover,
+    &:focus {
+		background-color: black;
+	}
+
+	&:focus {
+		outline: 0;
+	}
+}
